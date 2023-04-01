@@ -6,7 +6,8 @@ import './mystyle.css';
 function Navbar() {
   return (
     <nav style={{ backgroundColor: 'orange', color: '#fff', height: '40px' }}>
-      <a href="">Home</a>
+      <h2>Ecommerce Shipping</h2>
+      {/* <a href="">Home</a> */}
     </nav>
   );
 }
@@ -74,7 +75,7 @@ function App() {
         <thead>
           <tr>
             <th>ID</th>
-            <th>Name</th>
+            <th>Product Name</th>
             {/* <th>Quantity</th> */}
             <th>ShipOnWeekends</th>
             <th>MaxDaysToShip</th>

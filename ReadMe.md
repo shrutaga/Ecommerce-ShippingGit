@@ -14,11 +14,6 @@ Developed the E-commerce shipping challenge with the below requirements:
 
 ## Technologies used
 
-- node.js - Used for creating the backend server
-- react - To create the UI
-- MongoDB Atlab
-- Item 2b
-
 | Technology    |                           Usage                           |
 | ------------- | :-------------------------------------------------------: |
 | node.js       | To create the backend server and communicate to database. |
@@ -27,7 +22,7 @@ Developed the E-commerce shipping challenge with the below requirements:
 
 ## Installation
 
-### Pre-requisits
+### Pre-requisites
 
 - You need node to be installed on your machine
 - Refer https://nodejs.dev/en/learn/how-to-install-nodejs/
@@ -65,7 +60,13 @@ Connected to MongoDB
 
 ### Start Client
 
-- Go to another terminal and start using
+- Go to another terminal, change directory to client
+
+```
+cd client
+```
+
+and then start using
 
 ```
 npm start
