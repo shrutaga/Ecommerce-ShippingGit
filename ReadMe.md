@@ -1,11 +1,77 @@
-start the server (server.js) with command
+# E-Commerce Shipping App
 
-### `node server.js`
+**Developer: Shruti Agrawal**
 
-then run the client
+**Company: Accumula**
 
-cd client
+## Code challenge details
 
-### `npm start`
+Developed the E-commerce shipping challenge with the below requirements:
 
-server runs on localhost:3000 client asks if we want to run on another port since server is already running on port 3000 type 'y' or 'yes', client selects nearest port to server, usually 3001 and react app opens in browser
+- User interface for user to input/select the date of order
+- Shipping date will be displayed based on the date selected
+- Integrated with the database (pre-created using MangoDB)
+
+## Technologies used
+
+- node.js - Used for creating the backend server
+- react - To create the UI
+- MongoDB Atlab
+- Item 2b
+
+| Technology    |                           Usage                           |
+| ------------- | :-------------------------------------------------------: |
+| node.js       | To create the backend server and communicate to database. |
+| react         |                     To create the UI                      |
+| MongoDB Atlab |                To create/host the database                |
+
+## Installation
+
+### Pre-requisits
+
+- You need node to be installed on your machine
+- Refer https://nodejs.dev/en/learn/how-to-install-nodejs/
+- Quick step: For mac users - use brew to install node
+
+```
+brew install node
+```
+
+### Get the code
+
+- Clone the repo
+
+```
+git clone https://github.com/shrutaga/Ecommerce-ShippingGit
+```
+
+### Start Server
+
+- Go to terminal and start the server
+
+```
+node server.js
+```
+
+**NOTE**: This will start the server at port 3000, and it will connect to the MandoDB Atlas Database (Pre-Created).
+
+Sample output:
+
+```
+12:40 $ node server.js
+Server listening on port 3000
+Connected to MongoDB
+```
+
+### Start Client
+
+- Go to another terminal and start using
+
+```
+npm start
+```
+
+**Note**: This will ask you if you want to start client at different port as client is running on 3000, select `Y`
+-This opens the UI
+
+![E-commerce UI.](/image/client-ui.png 'This is a sample image.')
