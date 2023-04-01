@@ -35,14 +35,14 @@ function App() {
     let calculatedDate = 0;
     // check for shippping available on weekdays / weekends
     if (shipOnWeekends === 'false') {
-      let daysToAdd = 1;
+      let daysToAdd = 0;
       let currentDate = new Date(selectedDate);
 
       while (daysToAdd < maxBusinessDaysToShip - 1) {
+        currentDate.setDate(currentDate.getDate() + 1);
         if (currentDate.getDay() !== 0 && currentDate.getDay() !== 6) {
           daysToAdd++;
         }
-        currentDate.setDate(currentDate.getDate() + 1);
       }
       currentDate.setDate(currentDate.getDate());
       calculatedDate = currentDate.toISOString().substr(0, 10);
